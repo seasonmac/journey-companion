@@ -21,7 +21,7 @@ const Index = () => {
   return (
     <>
       <Helmet>
-        <title>{tripInfo.name} - 新疆自驾游助手</title>
+        <title>{`${tripInfo.name} - 新疆自驾游助手`}</title>
         <meta name="description" content={`${tripInfo.name}，${tripInfo.travelers}人${tripInfo.route.join(' → ')}`} />
       </Helmet>
 

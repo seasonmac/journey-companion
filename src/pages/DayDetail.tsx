@@ -53,7 +53,7 @@ const DayDetail = () => {
   return (
     <>
       <Helmet>
-        <title>Day {schedule.day}: {schedule.title}</title>
+        <title>{`Day ${schedule.day}: ${schedule.title}`}</title>
         <meta name="description" content={schedule.routeDescription} />
       </Helmet>
 
