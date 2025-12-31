@@ -62,6 +62,10 @@ import day3Bayinbuluk from '@/assets/day3-bayinbuluk.jpg';
 import day4Canyon from '@/assets/day4-canyon.jpg';
 import day5Urumqi from '@/assets/day5-urumqi.jpg';
 import spotGlacier from '@/assets/spot-glacier.jpg';
+import spotNalati from '@/assets/spot-nalati.jpg';
+import spotSwanLake from '@/assets/spot-swan-lake.jpg';
+import spotKuche from '@/assets/spot-kuche.jpg';
+import spotKongzhong from '@/assets/spot-kongzhong.jpg';
 
 // 景点数据
 export const spots: Record<string, Spot> = {
@@ -97,7 +101,7 @@ export const spots: Record<string, Spot> = {
     name: '那拉提草原',
     description: '世界四大草原之一的亚高山草甸植物区，被誉为"空中草原"。夏季草原翠绿如毯，野花遍地，牛羊成群。',
     suggestedDuration: '3-4小时',
-    imageUrl: day2Nalati,
+    imageUrl: spotNalati,
     coordinates: { lat: 43.2567, lng: 84.0123 },
     tags: ['草原', '摄影', '骑马'],
   },
@@ -106,7 +110,7 @@ export const spots: Record<string, Spot> = {
     name: '空中草原',
     description: '那拉提草原的精华所在，海拔2000米以上的高山草甸。日落时分，金色阳光洒满草原，美不胜收。',
     suggestedDuration: '2-3小时',
-    imageUrl: day2Nalati,
+    imageUrl: spotKongzhong,
     coordinates: { lat: 43.2890, lng: 84.0456 },
     tags: ['草原', '日落', '摄影'],
   },
@@ -115,7 +119,7 @@ export const spots: Record<string, Spot> = {
     name: '巴音布鲁克草原',
     description: '中国第二大草原，天鹅的故乡。九曲十八弯的开都河在这里蜿蜒流淌，日落时可见"九个太阳"的奇景。',
     suggestedDuration: '4-5小时',
-    imageUrl: day3Bayinbuluk,
+    imageUrl: spotSwanLake,
     coordinates: { lat: 42.9876, lng: 84.1567 },
     tags: ['草原', '天鹅湖', '九曲十八弯'],
   },
@@ -142,7 +146,7 @@ export const spots: Record<string, Spot> = {
     name: '库车王府',
     description: '清代库车回部亲王府邸，是新疆保存最完整的王府建筑群。了解西域历史文化的绝佳去处。',
     suggestedDuration: '1.5小时',
-    imageUrl: day4Canyon,
+    imageUrl: spotKuche,
     coordinates: { lat: 41.7178, lng: 82.9627 },
     tags: ['历史', '建筑', '文化'],
   },

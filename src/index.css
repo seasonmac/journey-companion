@@ -131,19 +131,19 @@
     font-family: 'Inter', system-ui, sans-serif;
   }
 
+  /* 600x600 卡片容器居中 */
+  #root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: hsl(var(--muted));
+  }
+
   /* Smooth scrolling */
   html {
     scroll-behavior: smooth;
     -webkit-tap-highlight-color: transparent;
-  }
-
-  /* Safe area for mobile */
-  .safe-bottom {
-    padding-bottom: env(safe-area-inset-bottom);
-  }
-
-  .safe-top {
-    padding-top: env(safe-area-inset-top);
   }
 }
 
