@@ -35,7 +35,7 @@ const SpotDetail = () => {
   return (
     <>
       <Helmet>
-        <title>{spot.name} - 景点详情</title>
+        <title>{`${spot.name} - 景点详情`}</title>
         <meta name="description" content={spot.description} />
       </Helmet>
 
